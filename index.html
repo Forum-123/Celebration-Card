@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="bundle.js"></script>
+        <link rel="stylesheet" href="static/css/style.css">
+        <title>Celebrate</title>
+    </head>
+    <body>
+        <form>
+            <label for="greeting">Greeting:</label>
+            <input type="text" placeholder="Enter greeting" id="greeting">
+            
+            <label for="occasion">Occasion:</label>
+            <select id="occasion">
+                <option value="Birthday">Birthday</option>
+                <option value="Christmas">Christmas</option>
+                <option value="New Year's Day">New Year's Day</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="35">Enter message</textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="card">
+            <h3>Greeting: </h3>
+            <h5 id="occasionSelected">Occasion: </h5>
+            <h5 id="messageWritten">Message: </h5>
+        </div>
+        <img src="" alt="Occasion Image">
+    </body>
+</html>
