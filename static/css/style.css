@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  width: 90%;
+  margin: 20px auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+label {
+  float: left;
+  margin: 0 10px 0 0;
+  width: 49%;
+  padding-top: 10px;
+}
+
+span {
+  display: block;
+}
+
+select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 3px;
+  resize: none;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+#cardGreeting {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
